@@ -1,0 +1,16 @@
+name: Question
+description: Not sure how something works?
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **Please do not include personal data or license keys in this form.**
+        > For license issues, contact us at [mamp.info/serrv](https://mamp.info/serrv).
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
