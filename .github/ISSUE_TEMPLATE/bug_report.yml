@@ -34,11 +34,13 @@ body:
     validations:
       required: false
 
-  - type: input
+  - type: dropdown
     id: serrv-version
     attributes:
       label: serrv version
-      placeholder: "e.g. 0.9.7"
+      options:
+        - "1.0"
+        - "Other / not version-specific"
     validations:
       required: true
 
